@@ -1,6 +1,6 @@
 import { serve } from '@hono/node-server';
 import { Hono } from 'hono';
-import { cors } from '@hono/cors';
+import { cors } from 'hono/cors';
 import { AuthService } from './services/auth.service.js';
 import { DocumentService } from './services/document.service.js';
 import { MetadataService } from './services/metadata.service.js';
